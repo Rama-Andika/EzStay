@@ -73,18 +73,25 @@ body {
 }
 
 .img-gallery {
-
   object-fit: cover;
 }
 
 .img-gallery2 {
-
   object-fit: cover;
   filter: brightness(75%);
 }
 
 .text-currency {
   color: #4f9083;
+}
+
+.card-building {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1) !important;
+}
+
+.card-building:hover {
+  border: 2px solid #6fa39a !important;
+  transform: scale(1.05, 1.05);
 }
 
 @media only screen and (max-width: 767px) {
@@ -132,14 +139,14 @@ body {
 }
 
 @media only screen and (max-width: 414px) {
-    .container-detail {
-      margin-top: 0px !important;
-    }
-
-    .card-detail{
-        width: 100% !important;
-    }
+  .container-detail {
+    margin-top: 0px !important;
   }
+
+  .card-detail {
+    width: 100% !important;
+  }
+}
 
 .container-detail {
   margin-top: -50px;
