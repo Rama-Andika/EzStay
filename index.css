@@ -8,7 +8,7 @@ body {
 }
 
 .btn-signUp {
-  background-color: #e76f51;
+  background-color: #fd8867;
   color: white;
   padding: 0px 20px;
   border-radius: 10px;
@@ -22,16 +22,16 @@ body {
 }
 
 .btn-search {
-  background-color: #e76f51;
+  background-color: #fd8867;
   color: white;
-  padding: 15px 15px;
+  padding: 15px 18px;
   border-radius: 15px;
 }
 
 .btn-search:hover {
   background-color: #e47a5d;
   color: white;
-  padding: 15px 15px;
+  padding: 15px 18px;
   border-radius: 15px;
 }
 
@@ -94,7 +94,7 @@ body {
   transform: scale(1.05, 1.05);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .btn-search {
     background-color: #e76f51;
     color: white;
