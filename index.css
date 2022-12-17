@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+.btn-signUp {
+  background-color: #e76f51;
+  color: white;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+
+.btn-signUp:hover {
+  background-color: #e66541;
+  color: white;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+
+.btn-search {
+  background-color: #e76f51;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 15px;
+}
+
+.btn-search:hover {
+  background-color: #e47a5d;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 15px;
+}
+
+.btn-rating {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: #dafdf7;
+  color: #60a094;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-arrow {
+  background-color: #fd8867;
+  color: #60a094;
+}
+
+.btn-rating:hover {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: #c3e5de;
+  color: #60a094;
+}
+
+.top-50 {
+  top: 80px !important;
+}
+
+.img-home {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.img-gallery {
+
+  object-fit: cover;
+}
+
+.img-gallery2 {
+
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+.text-currency {
+  color: #4f9083;
+}
+
+@media only screen and (max-width: 767px) {
+  .btn-search {
+    background-color: #e76f51;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 15px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .text-detail {
+    white-space: normal !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .btn-signUp {
+    background-color: #e76f51;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .col-detail {
+    border-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .col-gallery {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 451px) {
+  .container-detail {
+    margin-top: -20px !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+    .container-detail {
+      margin-top: 0px !important;
+    }
+
+    .card-detail{
+        width: 100% !important;
+    }
+  }
+
+.container-detail {
+  margin-top: -50px;
+}
