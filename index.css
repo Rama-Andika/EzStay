@@ -61,6 +61,11 @@ body {
   color: #60a094;
 }
 
+.btn-arrow:hover {
+    background-color: #e47a5d;
+    color: #60a094;
+  }
+
 .btn-rating:hover {
   position: absolute;
   top: 30px;
