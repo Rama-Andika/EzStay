@@ -35,6 +35,12 @@ body {
   border-radius: 15px;
 }
 
+.text-description{
+    color: #aaaaaa;
+}
+
+
+
 .btn-rating {
   position: absolute;
   top: 30px;
