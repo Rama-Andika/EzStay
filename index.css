@@ -118,7 +118,15 @@ body {
 
 @media only screen and (max-width: 575px) {
   .btn-signUp {
-    background-color: #e76f51;
+    background-color: #fd8867;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn-signUp:hover {
+    background-color: #e66541;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
